@@ -1,12 +1,12 @@
 $(call inherit-product, device/lge/h815/full_h815.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Fusion stuff.
+$(call inherit-product, vendor/cm/config/common_phone.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := cm_h815
+PRODUCT_NAME := h815
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g4" \
