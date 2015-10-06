@@ -24,3 +24,9 @@ TARGET_KERNEL_CONFIG := cyanogenmod_h815_defconfig
 
 # inherit from the proprietary version
 -include vendor/lge/h815/BoardConfigVendor.mk
+
+# TWRP
+DEVICE_RESOLUTION := 1440x2560
+
+#SaberMod
+-include vendor/fusion/config/sm.mk
